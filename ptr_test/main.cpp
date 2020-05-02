@@ -2,6 +2,7 @@
 #include <memory>
 
 //compile: g++ -std=c++11 main.c -o main
+//void foo( const std::shared_ptr<int>& p) 10 times faster
 void foo( const std::shared_ptr<int> p)
 {
         static int x =0;
